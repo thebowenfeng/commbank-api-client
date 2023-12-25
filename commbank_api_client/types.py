@@ -17,7 +17,7 @@ class Account:
 @dataclass
 class Transaction:
     id: str | None
-    transactionDetailsRequest: str | None
+    transaction_details_request: str | None
     description: str
     created: datetime
     amount: float

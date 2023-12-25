@@ -101,7 +101,7 @@ class Client:
 
         pending_transactions = list(map(lambda x: Transaction(
             id=None,
-            transactionDetailsRequest=x["transactionDetailsRequest"],
+            transaction_details_request=x["transactionDetailsRequest"],
             description=x["description"],
             created=datetime.strptime(x["createdDate"], "%Y-%m-%dT%H:%M:%S"),
             amount=float(x["amount"]),
@@ -109,7 +109,7 @@ class Client:
         ), res_json["pendingTransactions"])) if "pendingTransactions" in res_json else []
         transactions = list(map(lambda x: Transaction(
             id=x["transactionId"],
-            transactionDetailsRequest=None,
+            transaction_details_request=None,
             description=x["description"],
             created=datetime.strptime(x["createdDate"], "%Y-%m-%dT%H:%M:%S"),
             amount=float(x["amount"]),
