@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "commbank_api_client"
+version = "1.0.0"
+description = "Fully asynchronous (unofficial) API client for Commonwealth Bank of Australia"
+readme = "README.md"
+authors = [{ name = "Bowen Feng", email = "857514.leofeng@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["commbank", "api", "async", "client"]
+requires-python = ">=3.7"
