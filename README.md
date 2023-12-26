@@ -1,6 +1,6 @@
 # Commbank API Client
 
-A fully asynchronous (unofficial) API client for the [Commonwealth Bank of Australia](https://www.commbank.com.au).
+A fully asynchronous (unofficial) python API client for the [Commonwealth Bank of Australia](https://www.commbank.com.au).
 
 ## Install
 
